@@ -1,0 +1,17 @@
+@import 'gaia';
+
+/*this imports/authenticates the typeface*/
+@import url("https://use.typekit.net/klg6wia.css");
+
+/*sets the base typeface as the regular weight*/
+body {
+  font-family: felt-tip-woman, sans-serif;
+  font-size: 4em;
+}
+
+/*bold typeface as the thicker version of the typeface*/
+b {
+  font-family: felt-tip-woman, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
