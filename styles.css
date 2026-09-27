@@ -6,6 +6,11 @@ nav>ul {
   width: 66%;
 }
 
+body>div.cards {
+  display: flex;
+  flex-direction: row;
+}
+
 nav>ul>li {
   list-style: none;
 }
