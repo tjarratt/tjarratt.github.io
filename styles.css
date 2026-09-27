@@ -1,16 +1,43 @@
 nav>ul {
   display: flex;
   flex-direction: row;
+
   justify-content: space-between;
+  align-items: center;
+  text-align: center;
 
-  width: 66%;
-}
-
-body>div.cards {
-  display: flex;
-  flex-direction: row;
+  font-weight: bold;
 }
 
 nav>ul>li {
+  list-style: none;
+}
+
+body {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 10px;
+  background: #fcf6e5;
+}
+
+nav {
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+section>ul {
+  text-align: center;
+}
+
+section>ul>li {
   list-style: none;
 }
