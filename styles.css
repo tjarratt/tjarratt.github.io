@@ -42,6 +42,12 @@ section>ul>li {
   list-style: none;
 }
 
+section#bio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 img#bun {
   position: absolute;
   left: 50px;
