@@ -22,7 +22,19 @@ body {
   max-width: 800px;
   margin: 40px auto;
   padding: 0 10px;
-  background: #fcf6e5;
+
+  background: #903AD9;
+  color: #D7D1DB;
+
+  font-family: "Asap Sharp", sans-serif;
+}
+
+a {
+  color: #D7D1DB;
+}
+
+a:visited {
+  color: #D7D1DB;
 }
 
 h1,
