@@ -66,10 +66,21 @@ section#bio {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+section#bio img {
+  width: 75%;
+}
+
+.attr {
+  font-size: small;
 }
 
 img#bun {
-  position: absolute;
+  position: fixed;
   left: 50px;
   bottom: 50px;
 
