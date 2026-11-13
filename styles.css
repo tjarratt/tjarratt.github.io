@@ -60,6 +60,7 @@ section>ul {
 
 section>ul>li {
   list-style: none;
+  line-height: 125%;
 }
 
 section#bio {
