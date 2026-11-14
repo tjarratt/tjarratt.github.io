@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+blog_root=${BASH_SOURCE[0]%/*}/..
+
+cd $blog_root
+
+cp -R public ../docs/blog
