@@ -5,6 +5,8 @@ set -euo pipefail
 blog_root=${BASH_SOURCE[0]%/*}/..
 cd "$blog_root"
 
+rm -rf public
 hugo build
 
+rm -r ../docs/blog
 ditto public ../docs/blog
