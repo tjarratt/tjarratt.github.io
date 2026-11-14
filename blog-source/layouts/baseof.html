@@ -2,7 +2,10 @@
 <html lang="en" charset="utf-8">
   <head>
     <link rel=stylesheet href="/styles.css"/>
-    <link rel=stylesheet href="/blog.css"/>
+
+    {{ with resources.Get "blog.css" | minify | fingerprint }}
+    <link rel=stylesheet href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}"/>
+    {{ end }}
   </head>
 
   <body>

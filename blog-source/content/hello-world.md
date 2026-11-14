@@ -5,4 +5,4 @@ title = 'Hello World'
 
 # Hello World
 
-Just a cheeky little first post.
+Just a cheeky little first post ;)
