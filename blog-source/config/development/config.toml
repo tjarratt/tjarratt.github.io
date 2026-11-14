@@ -2,3 +2,9 @@ baseURL = 'http://127.0.0.1'
 
 buildDrafts = true
 
+[[module.mounts]]
+  source = 'static'
+  target = 'static'
+[[module.mounts]]
+  source = '../docs/styles.css'
+  target = 'static/styles.css'
