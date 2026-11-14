@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
 
+set -euo pipefail
+
 blog_root=${BASH_SOURCE[0]%/*}/..
+cd "$blog_root"
 
-cd $blog_root
+hugo build
 
-cp -R public ../docs/blog
+ditto public ../docs/blog
