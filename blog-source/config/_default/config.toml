@@ -1,3 +1,4 @@
 locale = 'en-us'
 title = 'Nemo Mortalis Omnibus Hors Sapit'
 
+disableKinds = [ 'taxonomy' ]
