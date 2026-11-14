@@ -3,14 +3,16 @@
   <h1>Nemo Mortalis Omnibus Hors Sapit</h1>
   <h2>...&nbspno man is at all times wise</h2>
 
-  <h3>Posts</h3>
-  <ul class="blog-posts">
-    {{ range .Pages }}
-    <li>
-      <a href="{{ .Page.Permalink }}">{{ .Title }}</a>
-    </li>
-    {{ else }}
-    <li>This page unintentionally left blank.</li>
-    {{ end }}
-  </ul>
+  <article>
+    <h3>Posts</h3>
+    <ul class="blog-posts">
+      {{ range .Pages }}
+      <li>
+        <a href="{{ .Page.Permalink }}">{{ .Title }}</a>
+      </li>
+      {{ else }}
+      <li>This page unintentionally left blank.</li>
+      {{ end }}
+    </ul>
+  </article>
 {{ end }}
